@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-07T10:46:15.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="l7bw5ooR_V0D8JXMCimI" version="12.9.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-04-07T10:53:25.513Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="0OEiYn9Kz-7FwTkTNzim" version="12.9.3" type="github" pages="3">
   <diagram id="KagBUMG2eLl4bxCx3WLD" name="createTable">
-    <mxGraphModel dx="865" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1187" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="DDuBjIrmXX7jxwNkTjgw-0" />
         <mxCell id="DDuBjIrmXX7jxwNkTjgw-1" parent="DDuBjIrmXX7jxwNkTjgw-0" />
@@ -16,7 +16,7 @@
         <mxCell id="DDuBjIrmXX7jxwNkTjgw-8" value="&lt;div&gt;Set parent to all resources group(root)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
           <mxGeometry x="170" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DDuBjIrmXX7jxwNkTjgw-10" value="&lt;div&gt;1. group table&lt;/div&gt;&lt;div&gt;2. group assiociation table&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
+        <mxCell id="DDuBjIrmXX7jxwNkTjgw-10" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. group table&lt;/div&gt;&lt;div&gt;2. group assiociation table&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
           <mxGeometry x="353" y="600" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DDuBjIrmXX7jxwNkTjgw-11" value="&lt;div&gt;update tables&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
@@ -55,10 +55,10 @@
             <mxPoint x="413" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DDuBjIrmXX7jxwNkTjgw-18" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
+        <mxCell id="DDuBjIrmXX7jxwNkTjgw-18" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
           <mxGeometry x="250" y="320" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DDuBjIrmXX7jxwNkTjgw-19" value="no" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
+        <mxCell id="DDuBjIrmXX7jxwNkTjgw-19" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
           <mxGeometry x="413" y="400" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NOASVmpPuM6bjoAS4klr-0" value="Static group?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
@@ -125,13 +125,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="um9s1oG1Vlsl-ybVm66L-0" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;/groups/&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DDuBjIrmXX7jxwNkTjgw-1">
-          <mxGeometry x="80" y="80" width="180" height="40" as="geometry" />
+          <mxGeometry x="20" y="40" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rGwcOpjaG0KLCDccLJ4y" name="AddResourceToGroup">
-    <mxGraphModel dx="1221" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,7 +217,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bG0DpFNhuvj4mFA7KOu5" name="hierachy">
-    <mxGraphModel dx="1038" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1424" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0MTib_nrsVBPfyW_cSak-0" />
         <mxCell id="0MTib_nrsVBPfyW_cSak-1" parent="0MTib_nrsVBPfyW_cSak-0" />
