@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T07:01:32.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="spnjXvton9JNrkDeotc_" version="13.8.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-23T08:03:59.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Q1shrsFWxFBX6J2YMQ8h" version="13.8.1" type="github" pages="2">
   <diagram id="f8CA-2ox_vJOR9wTWa05" name="ClientSide_whole_arch">
     <mxGraphModel dx="831" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
       <root>
         <mxCell id="7HYYpqahY4b_rM5mFEKF-0" />
         <mxCell id="7HYYpqahY4b_rM5mFEKF-1" parent="7HYYpqahY4b_rM5mFEKF-0" />
-        <mxCell id="7HYYpqahY4b_rM5mFEKF-2" value="Vendor cloud side service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-2" value="Vendor cloud side" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
           <mxGeometry x="390" y="400" width="166" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7HYYpqahY4b_rM5mFEKF-3" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="7HYYpqahY4b_rM5mFEKF-1">
