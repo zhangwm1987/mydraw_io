@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T06:50:37.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="rV8Es8nCfVboIssALwFk" version="13.8.1" type="github">
-  <diagram id="f8CA-2ox_vJOR9wTWa05" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-10-23T07:01:32.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="spnjXvton9JNrkDeotc_" version="13.8.1" type="github" pages="2">
+  <diagram id="f8CA-2ox_vJOR9wTWa05" name="ClientSide_whole_arch">
     <mxGraphModel dx="831" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -81,6 +81,44 @@
         </mxCell>
         <mxCell id="Uoa-fMcI6RaNsgmlIfMM-26" value="License server system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="475" y="270" width="125" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xXKNxS_N3GJ7wFL4jTjx" name="Page-2">
+    <mxGraphModel dx="949" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-0" />
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-1" parent="7HYYpqahY4b_rM5mFEKF-0" />
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-2" value="Vendor cloud side service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry x="390" y="400" width="166" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-3" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="520" as="sourcePoint" />
+            <mxPoint x="680" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-4" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry x="320" y="585" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-5" value="FlexNet enabled application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry x="335" y="612.5" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-6" value="License server" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry x="500" y="585" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-7" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="624.71" as="sourcePoint" />
+            <mxPoint x="500" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-8" value="Cloud side" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry x="590" y="470" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7HYYpqahY4b_rM5mFEKF-9" value="Customer LAN side" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7HYYpqahY4b_rM5mFEKF-1">
+          <mxGeometry x="590" y="520" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
