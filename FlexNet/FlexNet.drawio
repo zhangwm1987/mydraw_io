@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2020-10-23T06:25:33.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.1" etag="UZxcK_MyyqsTGEX2441D" type="github"><diagram id="f8CA-2ox_vJOR9wTWa05">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-23T06:50:37.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="rV8Es8nCfVboIssALwFk" version="13.8.1" type="github">
+  <diagram id="f8CA-2ox_vJOR9wTWa05" name="Page-1">
+    <mxGraphModel dx="831" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="357.5" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-2" value="Vendor application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="382.5" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="340" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="300" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-7" value="License Server Manager(lmgrd)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="330" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-8" value="Vendor Deamon(HPQ)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="407.5" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-9" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uoa-fMcI6RaNsgmlIfMM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="477.25" y="400" as="sourcePoint" />
+            <mxPoint x="477.25" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-10" value="License server&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="300" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-13" value="License Files" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="425" y="497.5" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Debug file&lt;br&gt;Log file&lt;br&gt;...&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#000000;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-18" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Option File&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#000000;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="370" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-19" value="&lt;span style=&quot;font-size: 10px&quot;&gt;Report File&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;strokeColor=#000000;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="447.5" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-20" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="Uoa-fMcI6RaNsgmlIfMM-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-21" value="" style="endArrow=classic;html=1;entryX=-0.011;entryY=0.42;entryDx=0;entryDy=0;dashed=1;entryPerimeter=0;" edge="1" parent="1" target="Uoa-fMcI6RaNsgmlIfMM-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="435" as="sourcePoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-22" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" target="Uoa-fMcI6RaNsgmlIfMM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="392.5" as="sourcePoint" />
+            <mxPoint x="670" y="367.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-23" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.558;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Uoa-fMcI6RaNsgmlIfMM-13" target="Uoa-fMcI6RaNsgmlIfMM-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="497.5" as="sourcePoint" />
+            <mxPoint x="510" y="447.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="372.5" width="40" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-3" value="FlexNet Client lib" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="240" y="412.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-25" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.002;exitY=0.43;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Uoa-fMcI6RaNsgmlIfMM-24" target="Uoa-fMcI6RaNsgmlIfMM-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="422.5" as="sourcePoint" />
+            <mxPoint x="360" y="372.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uoa-fMcI6RaNsgmlIfMM-26" value="License server system" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="475" y="270" width="125" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
