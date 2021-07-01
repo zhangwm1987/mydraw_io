@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T04:55:10.799Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="PZA9Cx93DzYuedl7r5Os" version="14.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-01T05:49:30.033Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="l2Z2BQOwNeHV2EVuoQ67" version="14.1.3" type="github" pages="2">
   <diagram id="IQn_MJ7tdE3Mbog3Oyrt" name="overall oauth">
     <mxGraphModel dx="2307" dy="958" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,7 +190,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wief-TQDNbuDF8WF_Twj" name="Event system">
-    <mxGraphModel dx="846" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="705" dy="456" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="824z70k770UWUd_179WO-0" />
         <mxCell id="824z70k770UWUd_179WO-1" parent="824z70k770UWUd_179WO-0" />
@@ -267,7 +267,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cNpe54T5A7_rmGW5pdE6-28" value="&lt;span style=&quot;font-size: 7px&quot;&gt;1. ws server&amp;nbsp; will maitain the SubID to ws connection mapping info&amp;nbsp;&lt;br&gt;2. push notification serve push API,&amp;nbsp; publish message to related topic.&amp;nbsp; Topic&amp;nbsp; name may contain tenant info&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="824z70k770UWUd_179WO-1">
-          <mxGeometry x="210" y="440" width="245" height="40" as="geometry" />
+          <mxGeometry x="210" y="425" width="245" height="55" as="geometry" />
         </mxCell>
         <mxCell id="cNpe54T5A7_rmGW5pdE6-30" value="&lt;font style=&quot;font-size: 8px&quot;&gt;connect with one unique SubID,&amp;nbsp; token info for connection authenticate&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="824z70k770UWUd_179WO-1">
           <mxGeometry x="590" y="510" width="90" height="40" as="geometry" />
@@ -382,6 +382,9 @@
             <mxPoint x="200" y="1050" as="sourcePoint" />
             <mxPoint x="250" y="1000" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="oz7sHXWD4g-tN3nn8tb8-0" value="&lt;span style=&quot;font-size: 7px&quot;&gt;Expose nats service directly to the client (nats.ws):&lt;br&gt;1. The authentication for each connection&lt;br&gt;2.&amp;nbsp; The Server configuration may be applied carefully in order to manage different nats server client&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="824z70k770UWUd_179WO-1">
+          <mxGeometry x="205" y="344" width="245" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
