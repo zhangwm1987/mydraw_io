@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-08T05:57:59.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="5r4fUYS-KhMbuhuKcv_s" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-08T06:18:34.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="OG0Yxg41X2NfjiWjD8ux" version="14.8.4" type="github" pages="4">
   <diagram id="IQn_MJ7tdE3Mbog3Oyrt" name="overall oauth">
     <mxGraphModel dx="1855" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -390,7 +390,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="25w19Wnx4u3gRCjz2JSm" name="socket.io push">
-    <mxGraphModel dx="2496" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JyWK-7Jrgd1SPlFd9SQs-0" />
         <mxCell id="JyWK-7Jrgd1SPlFd9SQs-1" parent="JyWK-7Jrgd1SPlFd9SQs-0" />
@@ -449,7 +449,7 @@
         <mxCell id="c7EcsJlo6gLviWiJxwEC-1" value="Client connect with room A:&lt;br&gt;Server side will join this connection in the room A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JyWK-7Jrgd1SPlFd9SQs-1">
           <mxGeometry x="80" y="140" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="c7EcsJlo6gLviWiJxwEC-2" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Socket.io&amp;nbsp; have namespace natively,&amp;nbsp; socket.io have room which can be same concept compare with the channel.&lt;br&gt;&lt;br&gt;1.&amp;nbsp; Broadcast,&amp;nbsp; if one client failed to deliver message. Do we need handle?&lt;br&gt;&lt;br&gt;2.&amp;nbsp; Message been queued at&amp;nbsp; the send buffer,&amp;nbsp; and node restarted,&amp;nbsp; notification will lost.&lt;br&gt;Advantage:&amp;nbsp; clientA will reconnect to same node,&amp;nbsp; so the message queued at the sendbuffer server side will be redelivered.&amp;nbsp; (But some one do not want redeliver,&amp;nbsp; then need handle at client side)&lt;br&gt;&lt;br&gt;https://socket.io/docs/v3/broadcasting-events/&lt;br&gt;&lt;br&gt;3. Node balance:&lt;br&gt;https://socket.io/docs/v3/using-multiple-nodes/&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JyWK-7Jrgd1SPlFd9SQs-1">
+        <mxCell id="c7EcsJlo6gLviWiJxwEC-2" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Do not use golang.&lt;br&gt;Socket.io&amp;nbsp; have namespace natively,&amp;nbsp; socket.io have room which can be same concept compare with the channel.&lt;br&gt;&lt;br&gt;1.&amp;nbsp; Broadcast,&amp;nbsp; if one client failed to deliver message. Do we need handle?&lt;br&gt;&lt;br&gt;2.&amp;nbsp; Message been queued at&amp;nbsp; the send buffer,&amp;nbsp; and node restarted,&amp;nbsp; notification will lost.&lt;br&gt;Advantage:&amp;nbsp; clientA will reconnect to same node,&amp;nbsp; so the message queued at the sendbuffer server side will be redelivered.&amp;nbsp; (But some one do not want redeliver,&amp;nbsp; then need handle at client side)&lt;br&gt;&lt;br&gt;https://socket.io/docs/v3/broadcasting-events/&lt;br&gt;&lt;br&gt;3. Node balance:&lt;br&gt;https://socket.io/docs/v3/using-multiple-nodes/&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JyWK-7Jrgd1SPlFd9SQs-1">
           <mxGeometry x="728" y="75" width="640" height="330" as="geometry" />
         </mxCell>
         <mxCell id="c7EcsJlo6gLviWiJxwEC-3" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="JyWK-7Jrgd1SPlFd9SQs-1" source="2URoYBKe4ZTztrolfENb-0" target="2URoYBKe4ZTztrolfENb-12">
@@ -471,7 +471,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NIE-UY6XJdgQcXugpvun" name="Push service">
-    <mxGraphModel dx="2774" dy="2149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="B7N0aoRA9KuExFf851mD-0" />
         <mxCell id="B7N0aoRA9KuExFf851mD-1" parent="B7N0aoRA9KuExFf851mD-0" />
@@ -508,7 +508,7 @@
         <mxCell id="_MmokRNpDw1ZORBUkxqe-4" value="Channel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="B7N0aoRA9KuExFf851mD-1">
           <mxGeometry x="400" y="1122" width="140" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="_MmokRNpDw1ZORBUkxqe-5" value="Channel name" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_MmokRNpDw1ZORBUkxqe-4">
+        <mxCell id="_MmokRNpDw1ZORBUkxqe-5" value="Channel name/ID" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_MmokRNpDw1ZORBUkxqe-4">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_MmokRNpDw1ZORBUkxqe-6" value="ClientID list" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_MmokRNpDw1ZORBUkxqe-4">
@@ -552,7 +552,7 @@
         <mxCell id="_MmokRNpDw1ZORBUkxqe-19" value="Channel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="B7N0aoRA9KuExFf851mD-1">
           <mxGeometry x="400" y="1272" width="140" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="_MmokRNpDw1ZORBUkxqe-20" value="Channel name" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_MmokRNpDw1ZORBUkxqe-19">
+        <mxCell id="_MmokRNpDw1ZORBUkxqe-20" value="Channel name/ID" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_MmokRNpDw1ZORBUkxqe-19">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_MmokRNpDw1ZORBUkxqe-21" value="ClientID list" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_MmokRNpDw1ZORBUkxqe-19">
