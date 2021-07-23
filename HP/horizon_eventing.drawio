@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T05:09:03.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ZtlS_vLpHuqTsmOOxjkO" version="14.9.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-23T09:04:09.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="hi5blSmk8ZqQBLAT3zFf" version="14.9.1" type="github" pages="7">
   <diagram id="IQn_MJ7tdE3Mbog3Oyrt" name="overall oauth">
-    <mxGraphModel dx="1821" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1827" dy="507" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -997,7 +997,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SLm_F3Nc9j0yUn80GILD" name="EventingV2">
-    <mxGraphModel dx="2377" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2003" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-0" />
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-1" parent="jFf5zOfqE2vr_b87MqoZ-0" />
@@ -1016,7 +1016,7 @@
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="160" y="360" width="720" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LjRJkFICCtaRlzqOiynu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-3" target="LjRJkFICCtaRlzqOiynu-0">
+        <mxCell id="LjRJkFICCtaRlzqOiynu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-3" target="LjRJkFICCtaRlzqOiynu-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-3" value="NodeJS Socket.io" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#FF6666;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
@@ -1138,7 +1138,10 @@
         <mxCell id="zBKvG9WcGlHwZvGFUdyg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="zBKvG9WcGlHwZvGFUdyg-0" target="zBKvG9WcGlHwZvGFUdyg-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-0" value="Eventing Resource mgmt" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
+        <mxCell id="a8n00A0Bdw1ASQvOs6Mf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jFf5zOfqE2vr_b87MqoZ-1" source="zBKvG9WcGlHwZvGFUdyg-0" target="a8n00A0Bdw1ASQvOs6Mf-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zBKvG9WcGlHwZvGFUdyg-0" value="Eventing Resource mgmt service" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="-30" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zBKvG9WcGlHwZvGFUdyg-1" value="Dev portal" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
@@ -1156,18 +1159,35 @@
             <mxPoint x="-190" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kjlXTGb0isR0S603wk9U-1" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
-          <mxGeometry x="-120" y="420" width="90" height="20" as="geometry" />
+        <mxCell id="kjlXTGb0isR0S603wk9U-1" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
+          <mxGeometry x="-100" y="420" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kjlXTGb0isR0S603wk9U-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1.&amp;nbsp; &amp;nbsp;The eventing resource mgmt service(A) will serve some mgmt API from dev portal.&amp;nbsp; LIke&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; a.&amp;nbsp; We can create creadential which will be used by the cloud back end service to communicate with eventing system. This credential have permission info bind to it, like what`s the channel this credential can publish/subscribe,&amp;nbsp; whether this credential can publish to client(web client)&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; b. This service need interacte with gaia(dev portal back end), since it will make use of the native nats auth mechanism. (Need more poc effort)&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Also for websocket server, we may can config each channel(like how long solution want persist message at memory or disk,&amp;nbsp; what is the QOS for each channel)&lt;br&gt;&lt;br&gt;2.&amp;nbsp; Mixer at each component is the adapter for different protocal with nats&lt;br&gt;&lt;br&gt;3. If using horizon oauth for login,&amp;nbsp; during the login,&amp;nbsp; horizon oauth will make use of customized rule engine, to get the permission for related user, and the issue token to client.&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; Solution is responsible for provide the hook for get the permission info for this user(If do not provide, will use default one)&lt;br&gt;&amp;nbsp; &amp;nbsp; permission looks like:&lt;br&gt;&amp;nbsp; &amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;channelA: [publish]&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; channelB: [publish, subscribe]&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
-          <mxGeometry x="-21.25" y="820" width="1020" height="290" as="geometry" />
+        <mxCell id="kjlXTGb0isR0S603wk9U-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1.&amp;nbsp; &amp;nbsp;The eventing resource mgmt service(A) will serve some mgmt API from dev portal.&amp;nbsp; LIke&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; a.&amp;nbsp; We can create creadential which will be used by the cloud back end service to communicate with eventing system. This credential have permission info bind to it, like what`s the channel this credential can publish/subscribe,&amp;nbsp; whether this credential can publish to client(web client)&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; b. This service need interacte with gaia(dev portal back end), since it will make use of the native nats auth mechanism. (Need more poc effort)&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Also for websocket server, we may can config each channel(like how long solution want persist message at memory or disk,&amp;nbsp; what is the QOS for each channel)&lt;br&gt;&lt;br&gt;2.&amp;nbsp; Mixer at each component is the adapter for different protocal with nats&lt;br&gt;&lt;br&gt;3. If using horizon oauth for login,&amp;nbsp; during the login,&amp;nbsp; horizon oauth will make use of customized rule engine, to get the permission for related user, and the issue token to client.&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; Solution is responsible for provide the hook for get the permission info for this user(If do not provide, will use default one)&lt;br&gt;&amp;nbsp; &amp;nbsp; permission looks like:&lt;br&gt;&amp;nbsp; &amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;span&gt; &lt;/span&gt;channelA: [publish]&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; channelB: [publish, subscribe]&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;br&gt;4. For C above,&amp;nbsp; if solution not use horizon Oauth,&amp;nbsp; solution need use portal to create one key.&amp;nbsp; This key will be used for non horizon issued token validation. eventing service expecting capability claim.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
+          <mxGeometry x="-21.25" y="820" width="1020" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="kjlXTGb0isR0S603wk9U-3" value="B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+        <mxCell id="kjlXTGb0isR0S603wk9U-3" value="B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="1130" y="380" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LjRJkFICCtaRlzqOiynu-0" value="web Client SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+        <mxCell id="LjRJkFICCtaRlzqOiynu-0" value="web Client SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="306.5" y="720" width="93.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="a8n00A0Bdw1ASQvOs6Mf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jFf5zOfqE2vr_b87MqoZ-1" source="a8n00A0Bdw1ASQvOs6Mf-0" target="jFf5zOfqE2vr_b87MqoZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8n00A0Bdw1ASQvOs6Mf-0" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+          <mxGeometry x="-25" y="510" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="a8n00A0Bdw1ASQvOs6Mf-4" value="C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+          <mxGeometry x="85" y="510" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gDnY3f0b4e7UKJ-kOjnB" name="Page-7">
+    <mxGraphModel dx="1000" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="OC1rE86Df2iFr5JN7-1X-0" />
+        <mxCell id="OC1rE86Df2iFr5JN7-1X-1" parent="OC1rE86Df2iFr5JN7-1X-0" />
       </root>
     </mxGraphModel>
   </diagram>
