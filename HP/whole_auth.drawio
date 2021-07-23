@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T10:26:29.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="QPoWpIUuWHAn4DnuRlWB" version="14.8.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-07-23T05:09:03.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ZtlS_vLpHuqTsmOOxjkO" version="14.9.1" type="github" pages="6">
   <diagram id="IQn_MJ7tdE3Mbog3Oyrt" name="overall oauth">
     <mxGraphModel dx="1821" dy="536" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -471,7 +471,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NIE-UY6XJdgQcXugpvun" name="event service">
-    <mxGraphModel dx="2317" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="2013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="B7N0aoRA9KuExFf851mD-0" />
         <mxCell id="B7N0aoRA9KuExFf851mD-1" parent="B7N0aoRA9KuExFf851mD-0" />
@@ -783,7 +783,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A4hwqxZW5bKRYjwjc6gj" name="Eventing system">
-    <mxGraphModel dx="1753" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JlQfFQVRZLz05ikLYp5f-0" />
         <mxCell id="JlQfFQVRZLz05ikLYp5f-1" parent="JlQfFQVRZLz05ikLYp5f-0" />
@@ -997,10 +997,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SLm_F3Nc9j0yUn80GILD" name="EventingV2">
-    <mxGraphModel dx="2837" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-0" />
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-1" parent="jFf5zOfqE2vr_b87MqoZ-0" />
+        <mxCell id="jFf5zOfqE2vr_b87MqoZ-14" value="&lt;br&gt;Cloud Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
+          <mxGeometry x="160" y="130" width="176.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jFf5zOfqE2vr_b87MqoZ-27" value="Web App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
+          <mxGeometry x="90" y="720" width="170" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="1200" y="200" width="310" height="370" as="geometry" />
         </mxCell>
@@ -1009,6 +1015,9 @@
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="160" y="360" width="720" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LjRJkFICCtaRlzqOiynu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-3" target="LjRJkFICCtaRlzqOiynu-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-3" value="NodeJS Socket.io" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#FF6666;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="200" y="400" width="140" height="90" as="geometry" />
@@ -1042,33 +1051,28 @@
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-10" value="NATS" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#99FF33;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="467.5" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-12" target="jFf5zOfqE2vr_b87MqoZ-10" edge="1">
+        <mxCell id="jFf5zOfqE2vr_b87MqoZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-12" target="jFf5zOfqE2vr_b87MqoZ-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="496.5" y="210" as="targetPoint" />
+            <mxPoint x="300" y="145" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-12" value="Cloudevents SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#99FF33;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
-          <mxGeometry x="306.5" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-14" target="jFf5zOfqE2vr_b87MqoZ-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-14" value="Cloud Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
-          <mxGeometry x="76.5" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="233" y="130" width="103.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-15" value="MQTT SDK" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="380" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-16" value="Cloud&amp;nbsp;Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
-          <mxGeometry x="843.5" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="jFf5zOfqE2vr_b87MqoZ-16" value="&lt;br&gt;&lt;br&gt;Cloud&amp;nbsp;Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
+          <mxGeometry x="710" y="130" width="196.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-18" target="jFf5zOfqE2vr_b87MqoZ-3" edge="1">
+        <mxCell id="jFf5zOfqE2vr_b87MqoZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-18" target="jFf5zOfqE2vr_b87MqoZ-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-18" value="web Client SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
-          <mxGeometry x="210" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="166.5" y="720" width="93.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-19" value="Mixer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="242.5" y="410" width="55" height="20" as="geometry" />
@@ -1085,20 +1089,8 @@
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-23" value="Mixer" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="572.5" y="410" width="55" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-25" target="jFf5zOfqE2vr_b87MqoZ-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-25" value="Cloudevents SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#99FF33;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
-          <mxGeometry x="616.5" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-27" target="jFf5zOfqE2vr_b87MqoZ-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-27" value="Web App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
-          <mxGeometry x="110" y="720" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jFf5zOfqE2vr_b87MqoZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-18" target="jFf5zOfqE2vr_b87MqoZ-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="710" y="130" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="jFf5zOfqE2vr_b87MqoZ-29" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1106,7 +1098,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-29" value="Web App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
-          <mxGeometry x="320" y="720" width="110" height="60" as="geometry" />
+          <mxGeometry x="306.5" y="720" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-30" value="Mixer" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="742.5" y="410" width="55" height="20" as="geometry" />
@@ -1143,29 +1135,38 @@
         <mxCell id="jFf5zOfqE2vr_b87MqoZ-48" value="service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="1280" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="jFf5zOfqE2vr_b87MqoZ-1" source="zBKvG9WcGlHwZvGFUdyg-0" target="zBKvG9WcGlHwZvGFUdyg-2">
+        <mxCell id="zBKvG9WcGlHwZvGFUdyg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="zBKvG9WcGlHwZvGFUdyg-0" target="zBKvG9WcGlHwZvGFUdyg-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-0" value="Eventing Resource mgmt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+        <mxCell id="zBKvG9WcGlHwZvGFUdyg-0" value="Eventing Resource mgmt" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="-30" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+        <mxCell id="zBKvG9WcGlHwZvGFUdyg-1" value="Dev portal" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="-320" y="415" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="jFf5zOfqE2vr_b87MqoZ-1" source="zBKvG9WcGlHwZvGFUdyg-2" target="jFf5zOfqE2vr_b87MqoZ-10">
+        <mxCell id="zBKvG9WcGlHwZvGFUdyg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" source="zBKvG9WcGlHwZvGFUdyg-2" target="jFf5zOfqE2vr_b87MqoZ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-2" value="GAIA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+        <mxCell id="zBKvG9WcGlHwZvGFUdyg-2" value="GAIA" style="rounded=0;whiteSpace=wrap;html=1;" parent="jFf5zOfqE2vr_b87MqoZ-1" vertex="1">
           <mxGeometry x="-30" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="jFf5zOfqE2vr_b87MqoZ-1" target="zBKvG9WcGlHwZvGFUdyg-0">
+        <mxCell id="zBKvG9WcGlHwZvGFUdyg-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="jFf5zOfqE2vr_b87MqoZ-1" target="zBKvG9WcGlHwZvGFUdyg-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-260" y="450" as="sourcePoint" />
             <mxPoint x="-190" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zBKvG9WcGlHwZvGFUdyg-6" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Nats auth:&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;https://docs.nats.io/nats-server/configuration/securing_nats/authorization&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Ably auth:&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;https://ably.com/documentation/core-features/authentication/#getting-started&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;socket.io multi tenant, need different instance to isolate or use the socket.io namespace?&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;nats multitenant:&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;https://docs.nats.io/nats-server/configuration/securing_nats/accounts&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;url&amp;nbsp;&lt;br&gt;dev.woinderland&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
-          <mxGeometry x="55.75" y="879" width="866" height="290" as="geometry" />
+        <mxCell id="kjlXTGb0isR0S603wk9U-1" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+          <mxGeometry x="-120" y="420" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kjlXTGb0isR0S603wk9U-2" value="&lt;font style=&quot;font-size: 14px&quot;&gt;1.&amp;nbsp; &amp;nbsp;The eventing resource mgmt service(A) will serve some mgmt API from dev portal.&amp;nbsp; LIke&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; a.&amp;nbsp; We can create creadential which will be used by the cloud back end service to communicate with eventing system. This credential have permission info bind to it, like what`s the channel this credential can publish/subscribe,&amp;nbsp; whether this credential can publish to client(web client)&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; b. This service need interacte with gaia(dev portal back end), since it will make use of the native nats auth mechanism. (Need more poc effort)&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Also for websocket server, we may can config each channel(like how long solution want persist message at memory or disk,&amp;nbsp; what is the QOS for each channel)&lt;br&gt;&lt;br&gt;2.&amp;nbsp; Mixer at each component is the adapter for different protocal with nats&lt;br&gt;&lt;br&gt;3. If using horizon oauth for login,&amp;nbsp; during the login,&amp;nbsp; horizon oauth will make use of customized rule engine, to get the permission for related user, and the issue token to client.&amp;nbsp;&lt;br&gt;&amp;nbsp; &amp;nbsp; Solution is responsible for provide the hook for get the permission info for this user(If do not provide, will use default one)&lt;br&gt;&amp;nbsp; &amp;nbsp; permission looks like:&lt;br&gt;&amp;nbsp; &amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;channelA: [publish]&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; channelB: [publish, subscribe]&lt;br&gt;&amp;nbsp; &amp;nbsp; }&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+          <mxGeometry x="-21.25" y="820" width="1020" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="kjlXTGb0isR0S603wk9U-3" value="B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+          <mxGeometry x="1130" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LjRJkFICCtaRlzqOiynu-0" value="web Client SDK" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="jFf5zOfqE2vr_b87MqoZ-1">
+          <mxGeometry x="306.5" y="720" width="93.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
