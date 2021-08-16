@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T07:03:17.479Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="FP33Z_kzjChEKiZN36R0" version="14.9.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-08-16T07:12:16.280Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="ynUk1dgD49nkMAyCQdkU" version="14.9.6" type="github" pages="9">
   <diagram id="IQn_MJ7tdE3Mbog3Oyrt" name="overall oauth">
     <mxGraphModel dx="2221" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1265,10 +1265,10 @@
       <root>
         <mxCell id="JrvtoWX745bl3irYwSgF-0" />
         <mxCell id="JrvtoWX745bl3irYwSgF-1" parent="JrvtoWX745bl3irYwSgF-0" />
-        <mxCell id="KvL-cRfriot0p2aAvgyg-43" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+        <mxCell id="KvL-cRfriot0p2aAvgyg-43" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
           <mxGeometry x="350" y="1270" width="770" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="KvL-cRfriot0p2aAvgyg-41" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+        <mxCell id="KvL-cRfriot0p2aAvgyg-41" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
           <mxGeometry x="350" y="1660" width="770" height="141" as="geometry" />
         </mxCell>
         <mxCell id="8-DG8xYAt0I4aBoV159S-0" value="WNS Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="JrvtoWX745bl3irYwSgF-1" vertex="1">
@@ -1332,7 +1332,7 @@
           <mxGeometry x="140" y="1430" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KvL-cRfriot0p2aAvgyg-2" value="Notification server(notification hub/ FCM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
-          <mxGeometry x="360" y="1320" width="170" height="80" as="geometry" />
+          <mxGeometry x="360" y="1300" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KvL-cRfriot0p2aAvgyg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JrvtoWX745bl3irYwSgF-1" source="KvL-cRfriot0p2aAvgyg-3" target="KvL-cRfriot0p2aAvgyg-5">
           <mxGeometry relative="1" as="geometry" />
