@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T07:53:14.812Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="BlLYUs3mse2IOrGPjKig" version="14.9.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-08-16T07:53:44.113Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="9SVUMglnx3-siL9v8tK-" version="14.9.6" type="github" pages="9">
   <diagram id="IQn_MJ7tdE3Mbog3Oyrt" name="overall oauth">
     <mxGraphModel dx="2221" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1261,7 +1261,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="30IHTPEfrHVBhJDntOuo" name="PushNotification">
-    <mxGraphModel dx="2818" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2467" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JrvtoWX745bl3irYwSgF-0" />
         <mxCell id="JrvtoWX745bl3irYwSgF-1" parent="JrvtoWX745bl3irYwSgF-0" />
@@ -1504,7 +1504,7 @@
             <mxPoint x="150" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IfMjSZpV2fVjVEih2O4Q-12" value="API provided:&lt;br&gt;1. Push server credential mgmt&lt;br&gt;2. Channel mgmt&lt;br&gt;&lt;div&gt;&lt;span&gt;3. Subscriber mgmt&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-12" value="API provided for:&lt;br&gt;1. Push server credential mgmt&lt;br&gt;2. Channel mgmt&lt;br&gt;&lt;div&gt;&lt;span&gt;3. Subscriber mgmt&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
           <mxGeometry x="185" y="770" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IfMjSZpV2fVjVEih2O4Q-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
