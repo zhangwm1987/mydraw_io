@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-16T07:29:33.596Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="nSdqz-8Hs1iMPfDT0OQ_" version="14.9.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-08-16T07:53:14.812Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="BlLYUs3mse2IOrGPjKig" version="14.9.6" type="github" pages="9">
   <diagram id="IQn_MJ7tdE3Mbog3Oyrt" name="overall oauth">
     <mxGraphModel dx="2221" dy="813" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1211,7 +1211,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gDnY3f0b4e7UKJ-kOjnB" name="EventClientAuthentication">
-    <mxGraphModel dx="2221" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2221" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="OC1rE86Df2iFr5JN7-1X-0" />
         <mxCell id="OC1rE86Df2iFr5JN7-1X-1" parent="OC1rE86Df2iFr5JN7-1X-0" />
@@ -1261,10 +1261,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="30IHTPEfrHVBhJDntOuo" name="PushNotification">
-    <mxGraphModel dx="1991" dy="-95" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2818" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JrvtoWX745bl3irYwSgF-0" />
         <mxCell id="JrvtoWX745bl3irYwSgF-1" parent="JrvtoWX745bl3irYwSgF-0" />
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="355" y="650" width="570" height="360" as="geometry" />
+        </mxCell>
         <mxCell id="KvL-cRfriot0p2aAvgyg-43" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
           <mxGeometry x="350" y="1270" width="770" height="380" as="geometry" />
         </mxCell>
@@ -1449,6 +1452,69 @@
         </mxCell>
         <mxCell id="yzNZfq1ipolTJpfbBxHN-7" value="Send event to horizon eventing" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
           <mxGeometry x="855" y="2070" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="JrvtoWX745bl3irYwSgF-1" source="DBErUN1dQQsVJYKUWZfm-0" target="DBErUN1dQQsVJYKUWZfm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-5" value="Save resources like:&lt;br&gt;1.Push server credential&lt;br&gt;2. Subscriber&amp;nbsp;&lt;br&gt;3. Channel" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IfMjSZpV2fVjVEih2O4Q-4">
+          <mxGeometry x="-0.7333" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBErUN1dQQsVJYKUWZfm-0" value="Eventing resource mgmt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82B366;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="390" y="790" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JrvtoWX745bl3irYwSgF-1" source="DBErUN1dQQsVJYKUWZfm-1" target="IfMjSZpV2fVjVEih2O4Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-9" value="Send push" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IfMjSZpV2fVjVEih2O4Q-8">
+          <mxGeometry x="-0.1556" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBErUN1dQQsVJYKUWZfm-1" value="Eventing notification Server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="650" y="790" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-10" value="Event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JrvtoWX745bl3irYwSgF-1" source="DBErUN1dQQsVJYKUWZfm-3" target="DBErUN1dQQsVJYKUWZfm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DBErUN1dQQsVJYKUWZfm-3" value="NATS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82B366;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="650" y="680" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="JrvtoWX745bl3irYwSgF-1" source="DBErUN1dQQsVJYKUWZfm-4" target="DBErUN1dQQsVJYKUWZfm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-7" value="&lt;div&gt;List subscribers info&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IfMjSZpV2fVjVEih2O4Q-6">
+          <mxGeometry x="0.3627" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DBErUN1dQQsVJYKUWZfm-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="600" y="900" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-1" value="Push server(WNS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="975" y="780" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-2" value="&lt;span style=&quot;font-size: 26px&quot;&gt;Horizon eventing notification&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="477" y="970" width="350" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-11" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JrvtoWX745bl3irYwSgF-1" target="DBErUN1dQQsVJYKUWZfm-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="820" as="sourcePoint" />
+            <mxPoint x="150" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-12" value="API provided:&lt;br&gt;1. Push server credential mgmt&lt;br&gt;2. Channel mgmt&lt;br&gt;&lt;div&gt;&lt;span&gt;3. Subscriber mgmt&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="185" y="770" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-13" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fillColor=#000000;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="80" y="720" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-14" value="Dev portal by UI" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="-30" y="740" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMjSZpV2fVjVEih2O4Q-15" value="Solution backend service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="JrvtoWX745bl3irYwSgF-1">
+          <mxGeometry x="50" y="850" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
