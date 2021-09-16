@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T05:04:09.745Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="-pocTc-9zblwU3J6OkNh" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T05:49:34.755Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="49yxcKL1fFBXkV7zo37L" version="15.2.7" type="github" pages="2">
   <diagram id="BjNxS_HSdl3xmiT8jZ2T" name="Page-1">
-    <mxGraphModel dx="1374" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1374" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="720" y="308.75" width="180" height="271.25" as="geometry" />
         </mxCell>
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-10" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="308.75" width="180" height="271.25" as="geometry" />
+          <mxGeometry x="480" y="310" width="180" height="270" as="geometry" />
         </mxCell>
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LeTtYnTHMOyqDjdAZOi9-2" target="LeTtYnTHMOyqDjdAZOi9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -25,9 +25,9 @@
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LeTtYnTHMOyqDjdAZOi9-4" target="LeTtYnTHMOyqDjdAZOi9-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LeTtYnTHMOyqDjdAZOi9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LeTtYnTHMOyqDjdAZOi9-4" target="LeTtYnTHMOyqDjdAZOi9-40" edge="1">
+        <mxCell id="LeTtYnTHMOyqDjdAZOi9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LeTtYnTHMOyqDjdAZOi9-4" target="LeTtYnTHMOyqDjdAZOi9-39" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="810" as="targetPoint" />
+            <mxPoint x="400" y="875" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-4" value="Image/descripter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -70,7 +70,7 @@
           <mxGeometry x="540" y="550" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-24" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;TASK 3:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;span&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Client lib release publish&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="630" y="250" width="140" height="48.75" as="geometry" />
+          <mxGeometry x="570" y="220" width="140" height="48.75" as="geometry" />
         </mxCell>
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LeTtYnTHMOyqDjdAZOi9-25" target="LeTtYnTHMOyqDjdAZOi9-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -102,17 +102,71 @@
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-35" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;TASK 7:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Trigger portal refresh&lt;/div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="634" y="700" width="106" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LeTtYnTHMOyqDjdAZOi9-39" value="Auth Scope mgmt services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="LeTtYnTHMOyqDjdAZOi9-39" value="API server" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="660" y="845" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LeTtYnTHMOyqDjdAZOi9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LeTtYnTHMOyqDjdAZOi9-40" target="LeTtYnTHMOyqDjdAZOi9-39" edge="1">
+        <mxCell id="LeTtYnTHMOyqDjdAZOi9-42" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;TASK 8:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Send API info to platform, like the scope info.&lt;/div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="361" y="830" width="166" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XVDB32RN2tSufRYkrRYp" name="Overall">
+    <mxGraphModel dx="948" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-0" />
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-1" parent="0_wh1f7TbYzO8nVC-6cO-0" />
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0_wh1f7TbYzO8nVC-6cO-1" source="0_wh1f7TbYzO8nVC-6cO-2" target="0_wh1f7TbYzO8nVC-6cO-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LeTtYnTHMOyqDjdAZOi9-40" value="Auth scope command line binary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="400" y="850" width="120" height="50" as="geometry" />
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-2" value="Dev portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="0_wh1f7TbYzO8nVC-6cO-1">
+          <mxGeometry x="260" y="380" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LeTtYnTHMOyqDjdAZOi9-42" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;TASK 8:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Source request is the scope info at descripter,&amp;nbsp; use command line tool to create scope at scope mgmt service&lt;/div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="795" width="166" height="50" as="geometry" />
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0_wh1f7TbYzO8nVC-6cO-1" source="0_wh1f7TbYzO8nVC-6cO-3" target="0_wh1f7TbYzO8nVC-6cO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="0_wh1f7TbYzO8nVC-6cO-1">
+          <mxGeometry x="140" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0_wh1f7TbYzO8nVC-6cO-1" source="0_wh1f7TbYzO8nVC-6cO-4" target="0_wh1f7TbYzO8nVC-6cO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-9" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Push code(golang &lt;br&gt;and node pkg):&lt;br&gt;push document&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0_wh1f7TbYzO8nVC-6cO-7">
+          <mxGeometry x="0.2409" y="2" relative="1" as="geometry">
+            <mxPoint x="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0_wh1f7TbYzO8nVC-6cO-1" source="0_wh1f7TbYzO8nVC-6cO-4" target="0_wh1f7TbYzO8nVC-6cO-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="602" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-12" value="Push pkg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0_wh1f7TbYzO8nVC-6cO-11">
+          <mxGeometry x="-0.3576" y="1" relative="1" as="geometry">
+            <mxPoint x="58" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-4" value="Horizon pipeline cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0_wh1f7TbYzO8nVC-6cO-1">
+          <mxGeometry x="430" y="330" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.728;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0_wh1f7TbYzO8nVC-6cO-1" source="0_wh1f7TbYzO8nVC-6cO-5" target="0_wh1f7TbYzO8nVC-6cO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-10" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Fetch source proto;&lt;br&gt;get git repo webhook&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0_wh1f7TbYzO8nVC-6cO-8">
+          <mxGeometry x="0.1428" y="2" relative="1" as="geometry">
+            <mxPoint x="37" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-5" value="Git repo" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0_wh1f7TbYzO8nVC-6cO-1">
+          <mxGeometry x="790" y="480" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-6" value="Nexus registry" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0_wh1f7TbYzO8nVC-6cO-1">
+          <mxGeometry x="790" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0_wh1f7TbYzO8nVC-6cO-17" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Manage pipeline&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0_wh1f7TbYzO8nVC-6cO-1">
+          <mxGeometry x="180" y="370" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
