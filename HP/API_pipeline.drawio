@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T06:05:47.593Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Mlaj5kWEA7Ou60u8IucA" version="15.5.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-05T09:17:43.572Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="yecV9WY74l6_ty6xy5l0" version="15.6.8" type="github" pages="4">
   <diagram id="XVDB32RN2tSufRYkrRYp" name="Overall">
-    <mxGraphModel dx="1262" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0_wh1f7TbYzO8nVC-6cO-0" />
         <mxCell id="0_wh1f7TbYzO8nVC-6cO-1" parent="0_wh1f7TbYzO8nVC-6cO-0" />
@@ -60,7 +60,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iltEvE9LxZ18jsO6aGP9" name="jar pkg">
-    <mxGraphModel dx="1262" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="tSR-RrVZ0dji6WmXawUL-0" />
         <mxCell id="tSR-RrVZ0dji6WmXawUL-1" parent="tSR-RrVZ0dji6WmXawUL-0" />
@@ -155,7 +155,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BjNxS_HSdl3xmiT8jZ2T" name="Pipeline detail">
-    <mxGraphModel dx="1262" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,7 +212,7 @@
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-9" value="Node client lib" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="510" y="480" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LeTtYnTHMOyqDjdAZOi9-13" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;TASK 2:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Generate pb file&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. protoc-gen-go&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. protoc-gen-go-grpc&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. protoc-gen-go_gapic&lt;/span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&amp;nbsp; protoc-gen-java_gapic&lt;br&gt;...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="LeTtYnTHMOyqDjdAZOi9-13" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;TASK 2:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Generate target source file&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;1. protoc-gen-go&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2. protoc-gen-go-grpc&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;3. protoc-gen-go_gapic&lt;/span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&amp;nbsp; protoc-gen-java_gapic&lt;br&gt;...&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="308.75" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="LeTtYnTHMOyqDjdAZOi9-14" value="release tag, git repo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
