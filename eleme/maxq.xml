@@ -1,4 +1,4 @@
-<mxfile modified="2021-11-29T08:03:07.195Z" host="app.diagrams.net" agent="5.0 (Macintosh)" etag="dexvC0YJOlx4yCTxDWeA" version="15.8.6" type="github">
+<mxfile modified="2021-11-29T08:08:09.572Z" host="app.diagrams.net" agent="5.0 (Macintosh)" etag="SD1v59_YQ83trb7Y6nxl" version="15.8.6" type="github">
   <diagram id="i4mGaMNXOxO6a0vWZflH" name="Nomal queue receive">
     <mxGraphModel dx="655" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -32,7 +32,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x8pDpcyH2pJaHLb4KXkN-7" value="Normal queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hL1KcNU-UBL2ZdFHzzwS-1">
+        <mxCell id="x8pDpcyH2pJaHLb4KXkN-7" value="&lt;div&gt;Normal queue&lt;/div&gt;&lt;div&gt;test_queue1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hL1KcNU-UBL2ZdFHzzwS-1">
           <mxGeometry x="272.5" y="410" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x8pDpcyH2pJaHLb4KXkN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hL1KcNU-UBL2ZdFHzzwS-1" source="x8pDpcyH2pJaHLb4KXkN-8" target="x8pDpcyH2pJaHLb4KXkN-2">
@@ -69,7 +69,7 @@
         <mxCell id="x8pDpcyH2pJaHLb4KXkN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="hL1KcNU-UBL2ZdFHzzwS-1" source="x8pDpcyH2pJaHLb4KXkN-24" target="x8pDpcyH2pJaHLb4KXkN-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x8pDpcyH2pJaHLb4KXkN-24" value="Virtual queue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hL1KcNU-UBL2ZdFHzzwS-1">
+        <mxCell id="x8pDpcyH2pJaHLb4KXkN-24" value="&lt;div&gt;Virtual queue&lt;/div&gt;&lt;div&gt;test_queue1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="hL1KcNU-UBL2ZdFHzzwS-1">
           <mxGeometry x="550" y="430" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x8pDpcyH2pJaHLb4KXkN-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hL1KcNU-UBL2ZdFHzzwS-1" target="x8pDpcyH2pJaHLb4KXkN-7">
