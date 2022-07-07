@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T07:01:15.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="znC_oYpjfDA3uZfVL6uH" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-07T07:37:58.452Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LaEvdteYv54sFPzE-kkm" version="20.0.4" type="github" pages="2">
   <diagram id="tZVdQkNVlSuiczO1PlXn" name="Page-1">
     <mxGraphModel dx="946" dy="504" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1V7sIshcf7PKAK5sWf2n" name="Page-2">
-    <mxGraphModel dx="1351" dy="721" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -496,6 +496,32 @@
         <mxCell id="ADz2-EMMigW5B4hfTtRu-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#66B2FF;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="444.44" y="4657" width="209" height="316" as="geometry" />
         </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-26" value="Deliver loop&lt;br&gt;vconsumer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258.5" y="4803" width="94" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-35" value="Normal Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="258.94" y="4712" width="96.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-36" value="Node A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268.94" y="4661" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-37" value="Node B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="522.94" y="4664" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="464.44" y="4701.5" width="169" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-27" value="GRPC&amp;nbsp;&lt;br&gt;server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="501.94" y="4803" width="94" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ADz2-EMMigW5B4hfTtRu-27" target="ADz2-EMMigW5B4hfTtRu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-33" value="MSG A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ADz2-EMMigW5B4hfTtRu-29">
+          <mxGeometry x="-0.255" y="-1" relative="1" as="geometry">
+            <mxPoint x="23" y="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ADz2-EMMigW5B4hfTtRu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ADz2-EMMigW5B4hfTtRu-26" target="ADz2-EMMigW5B4hfTtRu-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -509,28 +535,8 @@
             <mxPoint x="-9" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ADz2-EMMigW5B4hfTtRu-26" value="Deliver loop&lt;br&gt;vconsumer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="258.5" y="4803" width="94" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="ADz2-EMMigW5B4hfTtRu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ADz2-EMMigW5B4hfTtRu-27" target="ADz2-EMMigW5B4hfTtRu-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ADz2-EMMigW5B4hfTtRu-33" value="MSG A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ADz2-EMMigW5B4hfTtRu-29">
-          <mxGeometry x="-0.255" y="-1" relative="1" as="geometry">
-            <mxPoint x="23" y="62" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ADz2-EMMigW5B4hfTtRu-27" value="GRPC&amp;nbsp;&lt;br&gt;server" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="501.94" y="4803" width="94" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="ADz2-EMMigW5B4hfTtRu-35" value="Normal Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="258.94" y="4712" width="96.06" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ADz2-EMMigW5B4hfTtRu-36" value="Node A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="268.94" y="4661" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ADz2-EMMigW5B4hfTtRu-37" value="Node B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="522.94" y="4664" width="60" height="30" as="geometry" />
+        <mxCell id="ADz2-EMMigW5B4hfTtRu-39" value="Virtual Queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="498.94" y="4712" width="96.06" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
