@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T04:11:14.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WhpwERK1htu5jGMnidmE" version="21.2.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-05-08T04:53:49.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NItw0gYm4xBREY0VDi2H" version="21.2.9" type="github" pages="5">
   <diagram id="tZVdQkNVlSuiczO1PlXn" name="drc">
     <mxGraphModel dx="2689" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -630,8 +630,8 @@
         <mxCell id="AVUZTdgCklkHNMjA0ttk-32" value="MaxQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AVUZTdgCklkHNMjA0ttk-36" value="ele" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="410" width="150" height="220" as="geometry" />
+        <mxCell id="AVUZTdgCklkHNMjA0ttk-36" value="eleme DTS链路创建&amp;amp;消息订阅平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="390" width="210" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
