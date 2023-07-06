@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T09:30:38.306Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PYFyZT7XY1sOgOytor5V" version="21.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-07-06T09:36:11.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="j8u4DAvwOOwVXCR0tFb8" version="21.5.2" type="github" pages="6">
   <diagram id="tZVdQkNVlSuiczO1PlXn" name="drc">
     <mxGraphModel dx="2340" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1808,7 +1808,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oKjYxYn2rODaHmElqBSJ" name="Page-6">
-    <mxGraphModel dx="658" dy="408" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="493" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2999,8 +2999,8 @@
         <mxCell id="UtJD1dYMyz13RhtiI1lO-21" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=south;" vertex="1" parent="1">
           <mxGeometry x="1188" y="2945" width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="UtJD1dYMyz13RhtiI1lO-22" value="(a)DTS同步(事务防环)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="2967" width="137" height="26" as="geometry" />
+        <mxCell id="UtJD1dYMyz13RhtiI1lO-22" value="(a)DTS同步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1194" y="2967" width="81" height="26" as="geometry" />
         </mxCell>
         <mxCell id="UtJD1dYMyz13RhtiI1lO-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3023,6 +3023,12 @@
           <mxGeometry x="-0.0752" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UtJD1dYMyz13RhtiI1lO-45" value="业务写入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1198" y="2853" width="61" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="UtJD1dYMyz13RhtiI1lO-46" value="业务写入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1448" y="2853" width="61" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
