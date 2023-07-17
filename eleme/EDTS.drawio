@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T06:40:07.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KMhAMhtymVO_X931JZGj" version="21.6.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-17T07:30:34.450Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AXTq3tg_ViDr_J6gVXmm" version="21.6.2" type="github" pages="7">
   <diagram id="tZVdQkNVlSuiczO1PlXn" name="drc">
     <mxGraphModel dx="2924" dy="1046" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3783,8 +3783,8 @@
         <mxCell id="CKV7ALYGXrd46mrSAKrn-89" value="DATA path pod 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="643" y="1908" width="93" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CKV7ALYGXrd46mrSAKrn-94" value="&lt;font color=&quot;#ffffff&quot;&gt;EDTS forwaring&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="599" y="1349" width="135" height="50" as="geometry" />
+        <mxCell id="CKV7ALYGXrd46mrSAKrn-94" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;EDTS forwarding&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="599" y="1349" width="173" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
