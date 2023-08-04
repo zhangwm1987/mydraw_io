@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T07:24:44.789Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WDmxfwbetA3teoOeldTy" version="21.6.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-08-04T10:15:32.524Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vnbE_0tG0HMV4MuGB2eA" version="21.6.6" type="github" pages="7">
   <diagram id="tZVdQkNVlSuiczO1PlXn" name="drc">
     <mxGraphModel dx="2598" dy="984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3231,7 +3231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OHOQZzMvn1UFBlHVnGcc" name="EDTS design">
-    <mxGraphModel dx="2619" dy="771" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4491" dy="1460" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4458,7 +4458,7 @@
           <mxGeometry x="2362" y="2947" width="391.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t4J_kR1n_gGJPaJLA2lb-27" value="DTS instance" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-419" y="4358" width="256.2500000000001" height="270" as="geometry">
+          <mxGeometry x="-119" y="4564" width="256.2500000000001" height="270" as="geometry">
             <mxRectangle x="85" y="3348" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -4567,7 +4567,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t4J_kR1n_gGJPaJLA2lb-52" value="edts_job" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-419" y="4050" width="256.2500000000001" height="270" as="geometry">
+          <mxGeometry x="-681" y="3974" width="256.2500000000001" height="270" as="geometry">
             <mxRectangle x="85" y="3348" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -4676,7 +4676,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t4J_kR1n_gGJPaJLA2lb-77" value="DTS subscription" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-615" y="4686" width="350.2083333333336" height="560" as="geometry">
+          <mxGeometry x="-823" y="4834" width="350.2083333333336" height="560" as="geometry">
             <mxRectangle x="85" y="3348" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
