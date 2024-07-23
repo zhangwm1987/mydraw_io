@@ -1,4 +1,4 @@
-<mxfile modified="2024-07-23T12:53:41.880Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="H0f5_kZwLLbBb4_r0acy" version="24.7.3" type="github" pages="6">
+<mxfile modified="2024-07-23T12:54:35.998Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bQiEoFzX04x7UJ8nzXt5" version="24.7.3" type="github" pages="6">
   <diagram id="i4mGaMNXOxO6a0vWZflH" name="Nomal queue receive">
     <mxGraphModel dx="954" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1534,14 +1534,19 @@
         <mxCell id="TQQVUQ6MhTJCn5T8XMUB-109" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;收发消息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="184" y="979" width="39" height="22" as="geometry" />
         </mxCell>
-        <mxCell id="TQQVUQ6MhTJCn5T8XMUB-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="TQQVUQ6MhTJCn5T8XMUB-111" target="TQQVUQ6MhTJCn5T8XMUB-115">
+        <mxCell id="TQQVUQ6MhTJCn5T8XMUB-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="TQQVUQ6MhTJCn5T8XMUB-111" target="TQQVUQ6MhTJCn5T8XMUB-114">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TQQVUQ6MhTJCn5T8XMUB-111" value="Maxq broker&lt;br&gt;apollo.zb1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="235" y="1310" width="173" height="89" as="geometry" />
         </mxCell>
         <mxCell id="TQQVUQ6MhTJCn5T8XMUB-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="TQQVUQ6MhTJCn5T8XMUB-113" target="TQQVUQ6MhTJCn5T8XMUB-115">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="1270" />
+              <mxPoint x="425" y="1345" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="TQQVUQ6MhTJCn5T8XMUB-113" value="qboard A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="234.25" y="1250" width="172.75" height="40" as="geometry" />
@@ -1576,11 +1581,11 @@
         <mxCell id="TQQVUQ6MhTJCn5T8XMUB-122" value="应用APP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="74" y="1369" width="96" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="TQQVUQ6MhTJCn5T8XMUB-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.014;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="TQQVUQ6MhTJCn5T8XMUB-122" target="TQQVUQ6MhTJCn5T8XMUB-111">
+        <mxCell id="TQQVUQ6MhTJCn5T8XMUB-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="TQQVUQ6MhTJCn5T8XMUB-122" target="TQQVUQ6MhTJCn5T8XMUB-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TQQVUQ6MhTJCn5T8XMUB-124" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;收发消息&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="184" y="1332" width="39" height="22" as="geometry" />
+          <mxGeometry x="179.5" y="1418" width="39" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
