@@ -1804,6 +1804,12 @@
         <mxCell id="kdnVY03zSPX3lkZaYk49-82" value="round robin produce to each partition" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1406" y="5073" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="kdnVY03zSPX3lkZaYk49-83" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Proxy&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="4799" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kdnVY03zSPX3lkZaYk49-84" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Proxy&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1986" y="4802" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
