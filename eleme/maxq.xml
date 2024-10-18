@@ -3035,8 +3035,58 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8GIK6G39S5uw_gW_VVTJ-67" value="&lt;font color=&quot;#ff0000&quot;&gt;MetaQ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-67" value="&lt;font color=&quot;#ff0000&quot;&gt;MetaQ cluster&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5057" y="7241" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-80" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="5493" y="6787" width="442" height="433" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-81" value="&lt;font color=&quot;#ff0000&quot;&gt;MaxQ sidecar&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5803" y="6817" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-82" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5720" y="6735" as="sourcePoint" />
+            <mxPoint x="5720" y="6834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-83" value="consume Queue1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5722" y="6742" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="5392" y="7243" width="699" height="281" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8GIK6G39S5uw_gW_VVTJ-92" target="8GIK6G39S5uw_gW_VVTJ-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-107" value="&amp;nbsp;MetaQ subscribe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8GIK6G39S5uw_gW_VVTJ-106">
+          <mxGeometry x="0.7224" relative="1" as="geometry">
+            <mxPoint x="44" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-92" value="Topic:&lt;br&gt;apollo_apollo_Queue1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="5464" y="7409" width="143" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-93" value="Topic:&lt;br&gt;apollo_apollo_Queue2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="5796" y="7403" width="143" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-99" value="&lt;font color=&quot;#ff0000&quot;&gt;MetaQ cluster&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5939" y="7282" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-100" value="Queue1 consume&lt;br&gt;consumer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5664" y="6834" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-102" value="管理consumer, channel， 对应关系等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5544" y="6923" width="125" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8GIK6G39S5uw_gW_VVTJ-104" target="8GIK6G39S5uw_gW_VVTJ-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-104" value="cluster: apollo&lt;br&gt;vhost: apollo&lt;br&gt;queue: Queue1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5664" y="6981" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8GIK6G39S5uw_gW_VVTJ-110" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap;&quot;&gt;根据集群，vhost, queue &lt;br&gt;找到对应的consumer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5755" y="6915" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
