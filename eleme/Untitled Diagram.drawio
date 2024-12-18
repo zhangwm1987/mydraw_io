@@ -26,13 +26,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nr38aAbhha9i5taI6ajx-6" value="Producer&lt;br&gt;application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="104" y="320.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="113" y="320.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nr38aAbhha9i5taI6ajx-7" value="Consumer&lt;br&gt;application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="677" y="320.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="669" y="320.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nr38aAbhha9i5taI6ajx-13" value="AMQP msg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="235" y="355" width="65" height="19" as="geometry" />
+          <mxGeometry x="241" y="355" width="65" height="19" as="geometry" />
         </mxCell>
         <mxCell id="Nr38aAbhha9i5taI6ajx-15" value="Metaq msg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="319" y="431" width="65" height="19" as="geometry" />
@@ -41,10 +41,22 @@
           <mxGeometry x="522" y="435" width="65" height="19" as="geometry" />
         </mxCell>
         <mxCell id="Nr38aAbhha9i5taI6ajx-17" value="AMQP msg" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="602" y="355" width="65" height="19" as="geometry" />
+          <mxGeometry x="594" y="355" width="65" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="Nr38aAbhha9i5taI6ajx-18" value="MaxQ cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="Nr38aAbhha9i5taI6ajx-18" value="MetaQ cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="330" y="480" width="80" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr38aAbhha9i5taI6ajx-19" value="exchange" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="342" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr38aAbhha9i5taI6ajx-20" value="Queue" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="476" y="328" width="56" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr38aAbhha9i5taI6ajx-21" value="Topic" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="364" y="523" width="56" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Nr38aAbhha9i5taI6ajx-22" value="CID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="456" y="541" width="90" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
